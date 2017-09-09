@@ -1,0 +1,62 @@
+I want to build a repos for all the HCS II related code. For the
+links, the SC code and the application code such as the compiler and
+host applications.
+
+/home/njc/public_html/Personal/hcs.sourceforge.net/htdocs/src
+
+$ ls -la /home/njc/public_html/Personal/hcs.sourceforge.net/htdocs/src
+total 4216
+drwxr-xr-x 10 njc njc    4096 May 30 07:50 .
+drwxr-xr-x 10 njc njc    4096 May 30 07:50 ..
+drwxr-xr-x  2 njc njc    4096 May 30 07:50 articles
+-rwxr-xr--  1 njc njc     429 May 30 07:50 asm.sh
+lrwxrwxrwx  1 njc njc       3 May 30 07:50 cc -> ccc
+drwxr-xr-x  9 njc njc    4096 May 30 07:50 ccc
+drwxr-xr-x 14 njc njc    4096 May 30 07:50 comm-link
+-rw-r--r--  1 njc njc   14669 May 30 07:50 compile-20010822.tgz
+-r--r--r--  1 njc njc   63752 May 30 07:50 compile-3.60.c
+-rw-r--r--  1 njc njc   84462 May 30 07:50 #compile-4.10.c#
+-rw-r--r--  1 njc njc   83283 May 30 07:50 compile-4.10.c
+drwxr-xr-x  2 njc njc    4096 May 30 07:50 fpga
+-rw-r--r--  1 njc njc  237489 May 30 07:50 hcs-20011030.asm
+-rw-r--r--  1 njc njc 1526251 May 30 07:50 HCS2_Public_Domain_Release.zip
+-rw-r--r--  1 njc njc   90124 May 30 07:50 hcs-360.hex
+-rw-r--r--  1 njc njc  265113 May 30 07:50 hcs-3.60.tgz
+-rw-r--r--  1 njc njc  261552 May 30 07:50 hcs-3.60.zip
+-rw-r--r--  1 njc njc   90124 May 30 07:50 hcs-401.hex
+-rw-r--r--  1 njc njc   66423 May 30 07:50 hcs-4.01.tgz
+-rw-r--r--  1 njc njc   68254 May 30 07:50 hcs-4.01.zip
+-rw-r--r--  1 njc njc   44694 May 30 07:50 hcs-aa.pdf
+-rw-r--r--  1 njc njc   30407 May 30 07:50 hcs-ab.pdf
+-rw-r--r--  1 njc njc   23215 May 30 07:50 hcs-ac.pdf
+-rw-r--r--  1 njc njc   35701 May 30 07:50 hcs_addendum.pdf
+-rw-r--r--  1 njc njc   35866 May 30 07:50 hcs-ad.pdf
+-rw-r--r--  1 njc njc   88130 May 30 07:50 HCS-body.html
+-rw-r--r--  1 njc njc  116366 May 30 07:50 hcs-chap7.pdf
+-rw-r--r--  1 njc njc     599 May 30 07:50 HCSmanual.htm
+-rw-r--r--  1 njc njc     523 May 30 07:50 HCS-title.html
+-rw-r--r--  1 njc njc    3271 May 30 07:50 HCS-TOC.html
+-rw-r--r--  1 njc njc  237630 May 30 07:50 hcs-v3.60.asm
+-rw-r--r--  1 njc njc  511147 May 30 07:50 hcs_v364_floppy.zip
+drwxr-xr-x  2 njc njc    4096 May 30 07:50 host
+-rw-r--r--  1 njc njc   64279 May 30 07:50 host-3.60.c
+-rw-r--r--  1 njc njc   63558 May 30 07:50 host-4.01.c
+-rw-r--r--  1 njc njc      17 May 30 07:50 .htaccess
+-rw-r--r--  1 njc njc   12049 May 30 07:50 index.html
+-rw-r--r--  1 njc njc   85505 May 30 07:50 PIC-LCD.pdf
+-rw-r--r--  1 njc njc    9670 May 30 07:50 pictv.HEX
+drwxr-xr-x  8 njc njc    4096 May 30 07:50 sc
+drwxr-xr-x 16 njc njc    4096 May 30 07:50 t
+drwxr-xr-x  6 njc njc    4096 May 30 07:50 zetaengineering
+
+Skip zetaengineering
+
+drwxr-xr-x  2 njc njc    4096 May 30 07:50 articles
+lrwxrwxrwx  1 njc njc       3 May 30 07:50 cc -> ccc
+drwxr-xr-x  9 njc njc    4096 May 30 07:50 ccc
+drwxr-xr-x 14 njc njc    4096 May 30 07:50 comm-link
+drwxr-xr-x  2 njc njc    4096 May 30 07:50 host
+drwxr-xr-x  8 njc njc    4096 May 30 07:50 sc
+
+jhost
+hcs < curses based host, I think
