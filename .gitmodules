@@ -1,0 +1,3 @@
+[submodule "jhost"]
+	path = jhost
+	url = https://github.com/linuxha/jhost
