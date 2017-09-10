@@ -24,7 +24,8 @@ Multiple
 # Todo
 * Add all the subprojects to this Super Project
 
-hcs_ii
+## hcs_ii - proposed directory structure
+```
 /hcs.sourceforge.net/htdocs/src
 ├── t
 │   ├── network
@@ -101,3 +102,4 @@ hcs_ii
 ├── host
 ├── jhost
 ├── articles
+```
